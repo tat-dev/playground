@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - ./src:/src:cached
+      - front_node_modules:/src/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - HOST=0.0.0.0
+    tty: true
+volumes:
+  front_node_modules:

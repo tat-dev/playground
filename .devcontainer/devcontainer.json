@@ -1,0 +1,14 @@
+{
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-ceintl.vscode-language-pack-ja",
+        "wayou.vscode-todo-highlight",
+        "vue.volar"
+      ]
+    }
+  },
+	"workspaceFolder": "/src"
+}
