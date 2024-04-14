@@ -1,6 +1,8 @@
 <template>
-  <UIcon :name="iconName" />
-  <slot name="header" />
+  <div class="text-xl">
+    <UIcon :name="iconName" />
+    <slot name="header" />
+  </div>
   <UDivider />
   <div>
     <slot />
